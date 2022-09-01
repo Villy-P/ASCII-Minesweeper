@@ -1,0 +1,15 @@
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\bin\Debug\net6.0\ASCII Minesweeper.exe
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\bin\Debug\net6.0\ASCII Minesweeper.deps.json
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\bin\Debug\net6.0\ASCII Minesweeper.runtimeconfig.json
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\bin\Debug\net6.0\ASCII Minesweeper.dll
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\bin\Debug\net6.0\ASCII Minesweeper.pdb
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\obj\Debug\net6.0\ASCII Minesweeper.csproj.AssemblyReference.cache
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\obj\Debug\net6.0\ASCII Minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\obj\Debug\net6.0\ASCII Minesweeper.AssemblyInfoInputs.cache
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\obj\Debug\net6.0\ASCII Minesweeper.AssemblyInfo.cs
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\obj\Debug\net6.0\ASCII Minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\obj\Debug\net6.0\ASCII Minesweeper.dll
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\obj\Debug\net6.0\refint\ASCII Minesweeper.dll
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\obj\Debug\net6.0\ASCII Minesweeper.pdb
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\obj\Debug\net6.0\ASCII Minesweeper.genruntimeconfig.cache
+C:\Users\lilyp\OneDrive\Documents\Projects\C#\ASCII Minesweeper\obj\Debug\net6.0\ref\ASCII Minesweeper.dll
