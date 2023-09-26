@@ -1,5 +1,5 @@
 public class Plot {
-    public bool isVisible = true;
+    public bool isVisible = false;
     public bool isFlagged = false;
     public int row, col;
     public string content = "0";
