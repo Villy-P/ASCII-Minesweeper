@@ -9,7 +9,7 @@ public class Plot {
         this.col = col;
     }
 
-    public string getValue() {
+    public string GetValue() {
         if (this.isFlagged)
             return "⚐";
         else if (!this.isVisible)
