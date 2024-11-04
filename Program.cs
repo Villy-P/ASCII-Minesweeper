@@ -1,5 +1,5 @@
 ﻿class Program {
-    public Grid grid = new Grid();
+    public Grid grid = new();
 
     private void Play() {
         if (this.Victory()) {
@@ -63,8 +63,8 @@
     }
 
     private int[] Choose() {
-        List<char> letters = new List<char> {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'};
-        List<char> numbers = new List<char> {'0', '1', '2', '3', '4', '5', '6', '7', '8'};
+        List<char> letters = new () {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'};
+        List<char> numbers = new() { '0', '1', '2', '3', '4', '5', '6', '7', '8'};
         while (true) {
             Console.Write("Choose a square (eg. E4) or place a marker (eg. mE4): ");
             string choice = Console.ReadLine()!.ToLower();
@@ -75,10 +75,9 @@
                 numbers.Contains(choice[2])
             ) {
                 int col = char.ToUpper(choice[1]) - 65;
-                int row = Int32.Parse(choice[2].ToString());
+                int row = int.Parse(choice[2].ToString());
                 this.Marker(row, col);
                 this.Play();
-                // return new int[] {0, 0};
             } else if (
                 choice.Length == 2 &&
                 letters.Contains(choice[0]) &&
@@ -86,7 +85,7 @@
             ) {
                 return new int[] {
                     char.ToUpper(choice[0]) - 65,
-                    Int32.Parse(choice[1].ToString())
+                    int.Parse(choice[1].ToString())
                 };
             } else {
                 this.Choose();
@@ -103,7 +102,7 @@
     static void Main(string[] args) {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.WriteLine("Minesweeper");
-        Program program = new Program();
+        Program program = new();
         program.grid.CreateGrid();
         program.grid.PrintBoard();
         program.Play();
