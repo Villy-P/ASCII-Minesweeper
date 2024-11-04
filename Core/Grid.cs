@@ -1,5 +1,5 @@
 public class Grid {
-    public List<List<Plot>> plots = new List<List<Plot>>();
+    public List<List<Plot>> plots = new();
     public int rows = 9;
     public int columns = 9;
     public int bombs = 10;
@@ -33,8 +33,8 @@ public class Grid {
             this.PlaceBomb();
     }
 
-    public string ParseToValue(string value) {
-        return Int32.Parse(value).ToString();
+    public static string ParseToValue(string value) {
+        return int.Parse(value).ToString();
     }
 
     public void UpdateTopAndBottomRowValues(List<Plot> currentRow, int col) {
@@ -47,7 +47,7 @@ public class Grid {
     
     public string UpdateValue(string value) {
         if (!(value == "*"))
-            return (Int32.Parse(value) + 1).ToString();
+            return (int.Parse(value) + 1).ToString();
         return "*";
     }
 
