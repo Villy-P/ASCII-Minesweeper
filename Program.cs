@@ -1,7 +1,4 @@
-﻿// ! FINISHED
-// TODO = get input for rows, cols, and bombs
-
-class Program {
+﻿class Program {
     public Grid grid = new Grid();
 
     private void Play() {
