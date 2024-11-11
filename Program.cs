@@ -1,4 +1,6 @@
-﻿class Program {
+﻿using ASCII_Minesweeper.Core;
+
+class Program {
     public Grid grid = new();
 
     private void Play() {
