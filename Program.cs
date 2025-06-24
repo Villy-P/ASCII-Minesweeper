@@ -1,9 +1,15 @@
 ﻿using ASCII_Minesweeper.Core;
 
 namespace ASCII_Minesweeper {
+    /// <summary>
+    /// Main class for the ASCII Minesweeper game.
+    /// </summary>
     class Program {
         public Grid grid = new();
 
+        /// <summary>
+        /// Starts the game and handles the game loop.
+        /// </summary>
         private void Play() {
             if (this.Victory()) {
                 Console.WriteLine("You win!");
