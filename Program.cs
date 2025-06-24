@@ -34,6 +34,10 @@ namespace ASCII_Minesweeper {
             this.Play();
         }
 
+        /// <summary>
+        /// Checks if the player has won the game.
+        /// A player wins if all non-mine plots are visible.
+        /// </summary>
         private bool Victory() {
             int count = 0;
             foreach (List<Plot> row in this.grid.plots) {
